@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -52,3 +53,7 @@ export default tseslint.config({
   },
 })
 ```
+=======
+# Shopsmart
+ShopSmart is a web and mobile application that allows users to search for any product and instantly compare its prices, reviews, availability, and seller reputation across various Pakistani e-commerce platforms like Daraz, Temu, OLX, and others. 
+>>>>>>> 6b7e642cd814e04de4ff47dda08ff575267f6398
