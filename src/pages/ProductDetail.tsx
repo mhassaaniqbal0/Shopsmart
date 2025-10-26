@@ -15,9 +15,11 @@ export default function ProductDetail() {
       name: "iPhone 13",
       image: "https://i.imgur.com/iphone.jpg",
       platformPrices: [
-        { platform: "Daraz", price: "Rs 220,000", link: "#" },
-        { platform: "OLX", price: "Rs 215,000", link: "#" },
+        { platform: "Daraz", price: "Rs 220,000", link: "#",rating:4.5, deliveryTime:"2 days", stockAvailable:true },
+        { platform: "OLX", price: "Rs 215,000", link: "#",rating:5, deliveryTime:"2 days", stockAvailable:true },
       ],
+      description: "Latest Apple iPhone 13 with A15 Bionic chip.",
+      summary: "The iPhone 13 is the latest smartphone from Apple.",
     });
   }, [id]);
 

@@ -1,4 +1,5 @@
 import type { Product } from "../types/Product";
+import WishlistButton from "./WishlistButton";
 
 interface Props {
   product: Product | null;
@@ -17,14 +18,17 @@ export default function ProductModal({ product, onClose }: Props) {
         >
           ×
         </button>
-
+ <div>
+                <WishlistButton
+                  productId={product?.id}
+                />
+              </div>
         <div className="flex flex-col md:flex-row gap-6">
           <img
             src={product.image}
             alt={product.name}
             className="w-full md:w-1/3 object-contain"
           />
-
           <div className="flex-1">
             <h2 className="text-2xl font-bold mb-2">{product.name}</h2>
 

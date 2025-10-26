@@ -10,7 +10,7 @@ export default function ProductCard({ product }: { product: Product }) {
       />
       <h3 className="text-lg font-bold text-center mb-2">{product.name}</h3>
       <ul className="text-sm space-y-1">
-        {product.platformPrices.map((p) => (
+        {product?.platformPrices.map((p) => (
           <li key={p.platform} className="flex justify-between">
             <span className="text-gray-600">{p.platform}:</span>
             <span className="font-medium text-blue-600">{p.price}</span>
